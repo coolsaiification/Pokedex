@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		324ED4961F8A04D6003796AE /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 324ED4951F8A04D6003796AE /* pokemon.csv */; };
 		3257E7FA1F89FC2800C0114A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257E7F91F89FC2800C0114A /* AppDelegate.swift */; };
 		3257E7FC1F89FC2800C0114A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3257E7FB1F89FC2800C0114A /* ViewController.swift */; };
 		3257E7FF1F89FC2800C0114A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3257E7FD1F89FC2800C0114A /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		324ED4951F8A04D6003796AE /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		3257E7F61F89FC2800C0114A /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3257E7F91F89FC2800C0114A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3257E7FB1F89FC2800C0114A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				3257E7FB1F89FC2800C0114A /* ViewController.swift */,
 				3257E7FD1F89FC2800C0114A /* Main.storyboard */,
 				3257E8001F89FC2800C0114A /* Assets.xcassets */,
+				324ED4951F8A04D6003796AE /* pokemon.csv */,
 				3257E8021F89FC2800C0114A /* LaunchScreen.storyboard */,
 				3257E8051F89FC2800C0114A /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				3257E8041F89FC2800C0114A /* LaunchScreen.storyboard in Resources */,
 				3257E8011F89FC2800C0114A /* Assets.xcassets in Resources */,
+				324ED4961F8A04D6003796AE /* pokemon.csv in Resources */,
 				3257E7FF1F89FC2800C0114A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +308,7 @@
 				3257E80A1F89FC2800C0114A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
